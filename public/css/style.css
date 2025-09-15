@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #dfdfdf;
+}
+
+/* Header/navbar */
+
+.navbar {
+    background-color: #fefefe;
+    padding: 15px;
+    box-shadow: 3px 3px 3px #464646;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* button entrar em contato */
+.entrar-em-contato {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 1700px;
+    padding: 10px;
+}
+
+.entrar-em-contato a {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+}
+/* about */
+/* Wrapper para alinhar texto e imagem */
+.about-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0  auto;
+    padding: 50px 20px;
+}
+
+/* texto */
+
+.container {
+    max-width: 550px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+/* img */
+
+.img img {
+    width: 500px;
+    height: auto;
+    object-fit: cover; /* O object-fit é uma propriedade do CSS que controla como a imagem (ou vídeo) vai se ajustar dentro do espaço definido (largura/altura).*/ 
+}
