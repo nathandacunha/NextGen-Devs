@@ -1,77 +1,37 @@
+/* Reset básico */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    line-height: 1.6;
-    background-color: #dfdfdf;
+  line-height: 1.6;
+  background-color: #dfdfdf;
+  font-family: system-ui, sans-serif;
+  color: #333;
+  scroll-behavior: smooth;
 }
 
-/* Header/navbar */
-
+/* Navbar (apenas customizações leves, sem sobrescrever Bootstrap) */
 .navbar {
-    background-color: #fefefe;
-    padding: 15px;
-    box-shadow: 3px 3px 3px #464646;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
-.navbar ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+.navbar-brand {
+  font-size: 1.4rem;
 }
 
-.navbar a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-}
-/* button entrar em contato */
-.entrar-em-contato {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin-left: 1700px;
-    padding: 10px;
+.nav-link {
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
 }
 
-.entrar-em-contato a {
-    text-decoration: none;
-    font-weight: 300;
-    font-size: 15px;
+.nav-link:hover {
+  color: #0d6efd; /* azul padrão do Bootstrap */
 }
-/* about */
-/* Wrapper para alinhar texto e imagem */
+
+/* Hero/About section */
 .about-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0  auto;
-    padding: 50px 20px;
+  max-width: 1200
 }
-
-/* texto */
-
-.container {
-    max-width: 550px;
-    margin: 0 auto;
-    background-color: transparent;
-}
-
-/* img */
-
-.img img {
-    width: 500px;
-    height: auto;
-    object-fit: cover; /* O object-fit é uma propriedade do CSS que controla como a imagem (ou vídeo) vai se ajustar dentro do espaço definido (largura/altura).*/ 
-}
-
-/* services */
-
